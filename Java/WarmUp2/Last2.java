@@ -4,7 +4,7 @@ public int last2(String str) {
   }
   String last2Chars=str.substring(str.length()-2);
   int result = 0;
-  for(int i=0;i<str.length()-2;i++;){
+  for(int i=0;i<str.length()-2;i++){
       if(str.substring(i,i+2).equals(last2Chars)){
           result++;
       }
