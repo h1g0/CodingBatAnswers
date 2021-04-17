@@ -1,8 +1,9 @@
 public boolean arrayFront9(int[] nums) {
+    int checkLimit = 4;
     if(nums.length<4){
-        return false;
+        checkLimit=nums.length;
     }
-    for(int i=0;i<4;i++){
+    for(int i=0;i<checkLimit;i++){
         if(nums[i]==9){
             return true;
         }
